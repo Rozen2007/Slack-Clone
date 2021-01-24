@@ -1,0 +1,30 @@
+.message {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.message>img {
+    height: 70px;
+    width: 80px;
+    object-fit: contain;
+    border-radius: 2000px;
+}
+
+.message_info {
+    padding-left: 15px;
+}
+
+.message__timestamp {
+    color: gray;
+    font-weight: 300;
+    font-size: 13px;
+}
